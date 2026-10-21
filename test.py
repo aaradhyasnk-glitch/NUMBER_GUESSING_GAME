@@ -7,7 +7,7 @@ guess_no=1
 
 guess= int(input("Guess the MYSTERY number! : "))
 
-while guess_no>=total_guesses or guess==number: 
+for i in range (1,6,1):
 
  
     if guess==67 :
